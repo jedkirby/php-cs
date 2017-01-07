@@ -1,0 +1,23 @@
+{
+    "name": "jedkirby/php-cs",
+    "description": "Coding styling for PHP based projects.",
+    "license": "MIT",
+    "homepage": "https://jedkirby.com",
+    "authors": [
+        {
+            "name": "James Kirby",
+            "email": "me@jedkirby.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.6.4"
+    },
+    "require-dev": {
+        "friendsofphp/php-cs-fixer": "^2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Jedkirby\\PhpCs\\": "src/"
+        }
+    }
+}
