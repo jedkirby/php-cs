@@ -12,7 +12,7 @@ Installation
 This package can be installed via [Composer]:
 
 ``` bash
-$ composer require jedkirby/php-cs
+$ composer require jedkirby/php-cs --dev
 ```
 
 It requires **PHP >= 5.6.4**.
