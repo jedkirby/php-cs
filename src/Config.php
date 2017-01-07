@@ -6,27 +6,17 @@ use PhpCsFixer\Config as BaseConfig;
 
 class Config extends BaseConfig
 {
-
     /**
+     * @see https://github.com/friendsofphp/php-cs-fixer#usage
+     *
      * @var array
      */
     private $genericRules = [
-
-        // Use the Symfony style as a base
         '@Symfony' => true,
-
-        // Use short array syntax
         'array_syntax' => ['syntax' => 'short'],
-
-        // Concat with spaces
         'concat_space' => ['spacing' => 'one'],
-
-        // Order use statements alphabetically
         'ordered_imports' => true,
-
-        // Do not vertically align params
         'phpdoc_align' => false,
-
     ];
 
     /**
@@ -38,12 +28,8 @@ class Config extends BaseConfig
         $this->setGenericRules();
     }
 
-    /**
-     * @return void
-     */
     private function setGenericRules()
     {
         $this->setRules($this->genericRules);
     }
-
 }

@@ -20,7 +20,7 @@ It requires **PHP >= 5.6.4**.
 Usage
 -------
 
-After installing, copy the following boilerplate configuration into a file named `.php_cs` in the root of your project:
+After installing, copy the following boilerplate configuration into a file named `.php_cs` in the root of your project, remembering to modify the finder directories and/or files:
 
 ``` php
 <?php
@@ -38,3 +38,5 @@ $config->setFinder($finder);
 
 return $config;
 ```
+
+Now it's configured, ensure you have [php-cs-fixer](https://github.com/friendsofphp/php-cs-fixer#installation) installed, and go ahead and run: `php-cs-fixer fix`.
