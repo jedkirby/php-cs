@@ -25,7 +25,7 @@ After installing, copy the following boilerplate configuration into a file named
 ``` php
 <?php
 
-require_once __DIR__ . '/vendor/jedkirby/php-cs/src/Config.php';
+require_once realpath(__DIR__ . '/vendor/autoload.php');
 
 use PhpCsFixer\Finder;
 use Jedkirby\PhpCs\Config;
@@ -37,6 +37,7 @@ $config = new Config();
 $config->setFinder($finder);
 
 return $config;
+
 ```
 
 Now it's configured, ensure you have [php-cs-fixer](https://github.com/friendsofphp/php-cs-fixer#installation) installed, and go ahead and run: `php-cs-fixer fix`.
