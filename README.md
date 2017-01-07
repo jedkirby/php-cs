@@ -1,5 +1,8 @@
 PHP Code Styling
 -------
+[![Author](https://img.shields.io/badge/author-@jedkirby-blue.svg?style=flat-square)](https://twitter.com/jedkirby)
+[![Packagist](https://img.shields.io/packagist/v/jedkirby/php-cs.svg?style=flat-square)](https://packagist.org/packages/jedkirby/php-cs)
+[![Packagist](https://img.shields.io/packagist/l/jedkirby/php-cs.svg?style=flat-square)](https://github.com/jedkirby/php-cs/blob/master/LICENSE)
 
 Simply because I want my code styles to be consistent across projects.
 
