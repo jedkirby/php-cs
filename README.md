@@ -40,4 +40,8 @@ return $config;
 
 ```
 
-Now it's configured, ensure you have [php-cs-fixer](https://github.com/friendsofphp/php-cs-fixer#installation) installed, and go ahead and run: `php-cs-fixer fix`.
+Now you've setup your project with PHP CS, you can run the following command from the root of your project to apply the coding style:
+
+``` bash
+php vendor/bin/php-cs-fixer fix
+```
