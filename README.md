@@ -45,3 +45,5 @@ Now you've setup your project with PHP CS, you can run the following command fro
 ``` bash
 php vendor/bin/php-cs-fixer fix
 ```
+
+[Composer]: https://getcomposer.org
