@@ -25,8 +25,6 @@ After installing, copy the following boilerplate configuration into a file named
 ``` php
 <?php
 
-require_once realpath(__DIR__ . '/vendor/autoload.php');
-
 use PhpCsFixer\Finder;
 use Jedkirby\PhpCs\Config;
 
